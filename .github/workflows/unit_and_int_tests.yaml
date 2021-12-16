@@ -25,9 +25,3 @@ jobs:
           pytest \
             --cov="${REL_SRC_DIR_PATH}" \
             --cov-report=xml
-
-      - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v2
-        with:
-          fail_ci_if_error: true
-          verbose: true
