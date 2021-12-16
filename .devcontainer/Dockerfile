@@ -24,7 +24,6 @@ RUN apt update \
 
 # Copy install and launcher script to bin:
 COPY ./dev_install /bin
-COPY ./dev_launcher /bin
 
 # make docker in docker work:
 # (https://github.com/microsoft/vscode-dev-containers/blob/main/script-library/docs/docker-in-docker.md#script-use)
