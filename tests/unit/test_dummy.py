@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 # Copyright 2021 Universität Tübingen, DKFZ and EMBL
 # for the German Human Genome-Phenome Archive (GHGA)
 #
@@ -15,9 +13,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""Setup script for pip. This setup configs are specified in the `setup.cfg` file"""
+"""A test dummy just to make the CI pass."""
 
-import setuptools
 
-if __name__ == "__main__":
-    setuptools.setup()
+def test_dummy():
+    """Just make the CI pass."""
+    assert True

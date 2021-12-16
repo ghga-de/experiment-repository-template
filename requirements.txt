@@ -1,3 +1,15 @@
-# The "." states that pip should look at the setup.py
-# for requirements.
-.
+# All your requirements go here. Please adapt as needed:
+typer
+pydantic
+PyYAML
+pytest
+pytest-cov
+pytest-asyncio
+mypy
+bandit
+pylint
+black
+flake8
+isort
+pre-commit
+testcontainers
